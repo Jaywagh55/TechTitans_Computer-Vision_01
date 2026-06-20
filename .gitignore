@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Models (large files)
+yolov8n.pt
+models/
+*.onnx
+*.torchscript
+
+# Output data (generated)
+outputs/
+test_videos*/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+temp/
+rirs_api_*
+
+# Training data (large)
+train/

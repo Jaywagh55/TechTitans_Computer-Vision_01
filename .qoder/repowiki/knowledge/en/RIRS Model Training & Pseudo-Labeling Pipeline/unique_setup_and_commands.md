@@ -1,0 +1,1 @@
+Execute `python src/train.py` to run the full pipeline; use `--skip-pseudo` flag to bypass label generation if `train_labels/` already exists. CUDA GPU is strongly recommended for training performance.

@@ -1,0 +1,2 @@
+- Path management uses `pathlib.Path` with resolved script-relative roots (`_SRC_DIR`, `_ROOT_DIR`) to ensure consistent directory access regardless of execution context.
+- External module imports (`utils`, `stone_detector`) are placed after explicit `sys.path` manipulation to guarantee correct resolution from the source directory.

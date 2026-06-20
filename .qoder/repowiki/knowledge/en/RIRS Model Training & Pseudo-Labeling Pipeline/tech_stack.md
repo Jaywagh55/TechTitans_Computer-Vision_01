@@ -1,0 +1,1 @@
+Uses `ultralytics>=8.2.0` for YOLOv8 implementation and `opencv-python` for CLAHE pre-processing during the pseudo-labeling phase.

@@ -1,0 +1,1 @@
+Automates YOLOv8 fine-tuning for stone detection by generating heuristic-filtered pseudo-labels from unannotated training images.

@@ -1,0 +1,3 @@
+- Entry point `train.py` orchestrates a three-stage pipeline: pseudo-label generation, dataset configuration (`data.yaml`), and model fine-tuning.
+- Leverages external heuristics from `stone_detector._stone_likelihood` and `utils.preprocess_frame` to filter COCO-pretrained YOLOv8 detections before creating YOLO-format labels.
+- Configures `ultralytics.YOLO` training with specific hyperparameters (AdamW optimizer, augmentation settings) and manages artifact persistence by copying best weights to a root-level access path.
