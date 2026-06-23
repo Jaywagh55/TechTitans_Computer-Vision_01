@@ -1,10 +1,15 @@
 The Surgical Eye — AI Guidance for RIRS Kidney Stone Surgery
 ethosh Ignite 2026 — Track 1: Computer Vision
+
 Problem Statement 1
 Overview
+
 Retrograde Intrarenal Surgery (RIRS) is a minimally invasive procedure used to treat kidney stones using a flexible ureteroscope and laser lithotripsy. During the procedure, surgeons rely on live endoscopic video to identify stones, estimate their size, and safely align the laser before breaking the stone.
+
 Surgical videos can be difficult to interpret due to changing lighting, motion blur, irrigation fluid, bubbles, debris, bleeding, tissue movement, and camera angle changes. This project builds an AI-based visual assistant to improve stone visualization and provide decision-support during the procedure.
+
 Disclaimer: The dataset contains NSFW medical content, as it consists of real intraoperative endoscopic RIRS videos/images captured during kidney stone procedures. The content may include internal human anatomy, surgical instruments, blood, tissue, and other clinical visuals. This data is intended strictly for medical AI research and development purposes. All provided data is handled responsibly, ensuring patient privacy, confidentiality, and compliance with relevant medical data protection guidelines.
+
 Objectives
 1.Detect and localize kidney stones in video frames.
 2.Distinguish stones from surrounding tissue, instruments, bubbles, debris, blood, and background anatomy.
